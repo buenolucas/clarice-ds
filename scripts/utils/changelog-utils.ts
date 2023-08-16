@@ -43,7 +43,7 @@ export function getPrData(pr: PullRequest): PrData | undefined {
     dateFormatOptions
   );
 
-  const match = content.match(/## @chakra-ui\/react\@(?<version>\d.+)/);
+  const match = content.match(/## clarice\@(?<version>\d.+)/);
   const version = match?.groups?.version;
 
   const sanitized = content
