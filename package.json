@@ -1,7 +1,7 @@
 {
   "name": "clarice-ds",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.10",
   "repository": {
     "url": "https://github.com/buenolucas/clarice-ds.git",
     "type": "git"
