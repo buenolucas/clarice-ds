@@ -1,6 +1,6 @@
 {
   "name": "clarice",
-  "version": "0.0.0",
+  "version": "0.0.10",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
