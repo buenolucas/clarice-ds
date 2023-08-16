@@ -1,6 +1,6 @@
 ---
-"@clarice-ds/config": major
-"clarice": major
+"@clarice-ds/config": patch
+"clarice": patch
 ---
 
-A minor change to check final pipeline
+A patch change to check final pipeline
