@@ -1,0 +1,46 @@
+{
+  "name": "clarice-ds",
+  "private": true,
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/buenolucas/clarice-ds.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo  run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changelog": "tsx scripts/changelog.ts",
+    "changelog:latest": "tsx scripts/changelog.ts --latest",
+    "changelog:commit": "git add . && git commit -am 'docs: add changelog' && git push",
+    "changelog:format": "prettier --write .changelog",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "version:dev": "changeset version --snapshot dev",
+    "release:dev": "changeset publish --tag dev"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "@changesets/get-release-plan": "^3.0.17",
+    "@changesets/types": "^5.2.1",
+    "@clarice-ds/eslint-config": "workspace:*",
+    "@octokit/rest": "^20.0.1",
+    "@turbo/gen": "^1.9.7",
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1",
+    "tsx": "^3.12.7",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.6.12",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pnpm",
+    "turbo",
+    "react-native",
+    "@rnx-kit"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "./react-library",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "declarationDir": "./dist"
+  }
+}

@@ -1,0 +1,1 @@
+/Users/condomaker/ucondo/clarice-components/packages/eslint-config-custom-server/index.js
