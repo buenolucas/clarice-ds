@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 4,
+    "url": "https://github.com/buenolucas/clarice-ds/pull/4",
+    "body": "---\ntitle: Version 0.0.11\ndescription: Explore the changelog for Clarice DS version 0.0.11. Learn about the latest features, bug fixes, and improvements.\nreleaseUrl: https://github.com/buenolucas/clarice-ds/pull/4\nreleaseDate: August 16, 2023\nversion: 0.0.11\n---\n\n\n\n## clarice@0.0.11\n\n### Patch Changes\n\n-   [#1](https://github.com/buenolucas/clarice-ds/pull/1) [`7129321`](https://github.com/buenolucas/clarice-ds/commit/7129321a17da7c8842039398a17cb153477d2541) Thanks [@buenolucas](https://github.com/buenolucas)! - Welcome clarice\n",
+    "date": "August 16, 2023",
+    "version": "0.0.11"
+  }
+]
